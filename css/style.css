@@ -260,35 +260,12 @@ section{
 }
 
 .home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(../photo/sun\ set.jpg) no-repeat;
+    background: url(../photo/banner.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
-    padding-bottom: 10rem;
-}
-
-.home .content{
-    text-align: center;
-    width: 60rem;
-}
-
-.home .content h3{
-    color: var(--black);
-    font-size: 3rem;
-}
-
-.home .content h3 span{
-    color: var(--orange);  
-}
-
-.home .content p{
-    color: var(--white);
-    font-size: 1.7rem;
-    padding: 1rem 0;
-    line-height: 1.8;
+    width: 100%;
+    padding-bottom: 15rem;
 }
 
 .features .box-container{
@@ -314,7 +291,8 @@ section{
 
 .features .box-container .box img{
     margin: 1rem 0;
-    height: 15rem;
+    width: 90%;
+    height: 25rem;
 }
 
 .features .box-container .box h3{
@@ -357,23 +335,6 @@ section{
 .pictures .picture-slider .box img{
     height: 20rem;
     width: 95%;
-}
-
-.pictures .picture-slider .box h3{
-    font-size: 2.5rem;
-    color: var(--black);
-}
-
-.pictures .picture-slider .box .text{
-    font-size: 2rem;
-    color: var(--light-color);
-    padding: .5rem 0;
-}
-
-.pictures .picture-slider .box .stars i{
-    font-size: 1.7rem;
-    color: var(--orange);
-    padding: .5rem 0;
 }
 
 .footer{
@@ -461,15 +422,6 @@ section{
     color: var(--orange);
 }
 
-
-
-
-
-
-
-
-
-
 /* media queries */
 
 @media (max-width:991px){
@@ -480,10 +432,19 @@ section{
 
     .header{
         padding: 2rem;
+        width: 95;
     }
 
     section{
         padding: 2rem;
+    }
+
+    #login-btn{
+        display: none;
+    }
+
+    #search-btn{
+        display: none
     }
 }
 
