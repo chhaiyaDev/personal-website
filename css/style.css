@@ -438,6 +438,10 @@ section{
     section{
         padding: 2rem;
     }
+
+    #search-btn{
+        display: none
+    }
 }
 
 @media (max-width:768px){
