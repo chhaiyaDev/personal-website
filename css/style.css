@@ -17,7 +17,6 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -93,6 +92,7 @@ section{
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
+    text-transform: capitalize;
 }
 
 .header .navbar a:hover{
@@ -189,15 +189,6 @@ section{
     border-radius: 50%;
 }
 
-.header .content-card .box .fa-trash{
-    font-size: 2rem;
-    position: absolute;
-    top: 50%; right: 2rem;
-    cursor: pointer;
-    color: var(--light-color);
-    transform: translateY(-50%);
-}
-
 .header .content-card .box .content h3{
     color: var(--black);
     font-size: 1.7rem;
@@ -266,6 +257,21 @@ section{
     padding-top: 17rem;
     width: 100%;
     padding-bottom: 15rem;
+}
+
+.heading{
+    text-transform: capitalize;
+}
+
+.main-show .text-container{
+    padding: 3rem 5rem;
+    background: #fff;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    outline: var(--outline);
+    outline-offset: -1rem;
+    box-shadow: var(--box-shadow);
 }
 
 .features .box-container{
@@ -350,6 +356,7 @@ section{
 .footer .box-container .box h3{
     font-size: 2.5rem;
     color: var(--black);
+    text-transform: capitalize;
     padding: 1rem 0;
 }
 
