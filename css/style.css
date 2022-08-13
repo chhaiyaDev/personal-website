@@ -2,6 +2,7 @@
 
 :root{
     --orange:#2ccef7;
+    --red: rgba(255, 0, 0, 0.733);
     --black:#130f40;
     --white:rgb(255, 255, 255);
     --light-color:#666;
@@ -268,10 +269,14 @@ section{
     background: #fff;
     font-size: 1.5rem;
     line-height: 1.8;
-    color: var(--light-color);
+    color: var(--black);
     outline: var(--outline);
     outline-offset: -1rem;
     box-shadow: var(--box-shadow);
+}
+
+.main-show .text-container span{
+    color: var(--red)
 }
 
 .features .box-container{
